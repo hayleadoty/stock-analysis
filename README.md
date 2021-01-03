@@ -39,3 +39,5 @@ This way, we can add one or more new stocks to our dataset. We can then use our 
 ### Summary
 
 In general, refactoring code allows us to save time by reusing working code in more streamlined or simplified way. We can also make existing code run faster through refactoring. A negative of refactoring code could be that sometimes you are working with code that was written by someone else, so it could be confusing or contain bugs.
+
+An advantage of the original VBA code (in my case) is the fact that it ran faster than my refactored code - exactly 7 seconds faster for both years. I'm not sure why this occurred; I'm assuming I made an error somewhere, or possibly may have added or left in pieces of code that were not necessary. A disadvantage of the original VBA code (for someone who did not make any errors) would be that it should run slower than the refactored code. Also, if it contained any bugs, we'd have had to debug the code before we could refactor it. In this case, an advantage of the original VBA code would also be that it was written in a neat, organized manner, complete with comments between code explaining what each line would execute.
